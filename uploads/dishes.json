@@ -1,0 +1,436 @@
+[
+    {
+        "tokenName": "tok001",
+        "dishName": {
+            "english": "name",
+            "chinese": "菜名"
+        },
+        "description": "Lorem",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": true,
+        "details": [
+            "List item 1",
+            "List item 2"
+        ]
+    },
+    {
+        "tokenName": "app001",
+        "dishName": {
+            "english": "Cucumber with Garlic Sauce",
+            "chinese": "蒜泥黃瓜"
+        },
+        "description": "Crisp cucumbers lightly smashed and tossed in a tangy garlic sauce.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "app002",
+        "dishName": {
+            "english": "Spinach with Vinegar",
+            "chinese": "老醋菠菜"
+        },
+        "description": "Fresh spinach quickly blanched and dressed with aged vinegar.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "app003",
+        "dishName": {
+            "english": "Shredded Chicken Salad",
+            "chinese": "口水雞絲"
+        },
+        "description": "Shredded chicken mixed with a light, spicy dressing.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "app004",
+        "dishName": {
+            "english": "Beef Shank with Dried Lettuce",
+            "chinese": "貢菜牛展"
+        },
+        "description": "Thinly sliced beef shank paired with dried lettuce, dressed in a chili sauce.",
+        "meat": "beef",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "app005",
+        "dishName": {
+            "english": "Tiger Skin Green Peppers",
+            "chinese": "虎皮青椒"
+        },
+        "description": "Green peppers pan-fried until blistered, then seasoned with soy sauce and vinegar.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ste001",
+        "dishName": {
+            "english": "Steamed Meat with Rice Flour",
+            "chinese": "粉蒸肉"
+        },
+        "description": "Pork ribs / beef tendorloin steamed with rice flour and spices.",
+        "meat": "beef, pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste002",
+        "dishName": {
+            "english": "Steamed Egg Custard",
+            "chinese": "水蒸蛋"
+        },
+        "description": " Silky smooth egg custard, steamed with dried shrimp.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste003",
+        "dishName": {
+            "english": "Steamed Minced Pork and Egg",
+            "chinese": "肉燉蛋"
+        },
+        "description": "Minced pork and poached egg steamed together.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste004",
+        "dishName": {
+            "english": "Steamed Ash Gourd with Dried Scallops",
+            "chinese": "瑤柱冬瓜盅"
+        },
+        "description": "Sliced ash gourd and dried scallops steamed together.",
+        "meat": "seafood",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste005",
+        "dishName": {
+            "english": "Steamed Tofu with Minced Pork",
+            "chinese": "肉末蒸豆腐"
+        },
+        "description": "Tofu steamed with minced pork on top.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste006",
+        "dishName": {
+            "english": "Steamed Chicken with Shiitake Mushrooms",
+            "chinese": "香菇蒸滑雞"
+        },
+        "description": "Chicken and shiitake mushrooms steamed to create a tender and aromatic dish.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste007",
+        "dishName": {
+            "english": "Steamed Enoki with Garlic Sause",
+            "chinese": "蒜蓉金針菇"
+        },
+        "description": "Enoki mushroom steamed with baby cabbage and vermicelli and topped with a garlic sauce.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ste008",
+        "dishName": {
+            "english": "Steamed Eggplant",
+            "chinese": "素蒸茄子"
+        },
+        "description": "Eggplant steamed dressed with a homemade spicy chili oil sauce.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ent001",
+        "dishName": {
+            "english": "Braised Beef Ribs",
+            "chinese": "燉牛肋条"
+        },
+        "description": "Beef ribs slowly braised with tomatoes/carrots/white radish/dried bamboo shoots in a soy sauce mixture.",
+        "meat": "beef",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ent002",
+        "dishName": {
+            "english": "Braised Spare Ribs with Vegetables",
+            "chinese": "燒排骨"
+        },
+        "description": "Spare ribs braised with potatoes/taro/fresh bamboo shoots in a savory sauce.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ent003",
+        "dishName": {
+            "english": "Spicy Lamb Belly Stew",
+            "chinese": "羊腩煲"
+        },
+        "description": "Lamb belly stewed in a spicy bean paste sauce.",
+        "meat": "lamb",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ent004",
+        "dishName": {
+            "english": "Chicken Stew with Mushrooms",
+            "chinese": "雜菇粉條燉雞"
+        },
+        "description": "Chicken stewed with assorted mushrooms and glass noodles.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent005",
+        "dishName": {
+            "english": "Fired vermicelli",
+            "chinese": "螞蟻上樹"
+        },
+        "description": "Stir-fried glass noodles with minced pork in a spicy sauce.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent006",
+        "dishName": {
+            "english": "Shredded Pork with Green Peppers",
+            "chinese": "青椒肉絲"
+        },
+        "description": "Stir-fried shredded pork with green peppers in a light soy sauce.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent007",
+        "dishName": {
+            "english": "Yu Xiang Pork",
+            "chinese": "魚香肉絲"
+        },
+        "description": "Pork stir-fried with wood ear mushrooms and bamboo shoots in a spicy garlic sauce.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent008",
+        "dishName": {
+            "english": "Minced Pork with Green Beans",
+            "chinese": "肉末四季豆"
+        },
+        "description": "Green beans stir-fried with minced pork and seasoned with garlic.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent009",
+        "dishName": {
+            "english": "Spicy Chicken",
+            "chinese": "辣子雞"
+        },
+        "description": "Deep-fried chicken pieces tossed with dried chilies and Sichuan peppercorns.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": true
+    },
+    {
+        "tokenName": "ent010",
+        "dishName": {
+            "english": "Celery with Smoked Tofu",
+            "chinese": "芹菜香干"
+        },
+        "description": "Stir-fried celery with smoked tofu and a hint of chili.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent011",
+        "dishName": {
+            "english": "Stir-Fried Eggs with Leeks",
+            "chinese": "韭黃炒蛋"
+        },
+        "description": "Eggs stir-fried with leeks, offering a fresh and slightly pungent taste.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent012",
+        "dishName": {
+            "english": "Scrambled Eggs with Tomatoes",
+            "chinese": "番茄炒蛋"
+        },
+        "description": "Soft scrambled eggs cooked with fresh tomatoes, creating a sweet and savory blend.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent013",
+        "dishName": {
+            "english": "Shrimp with Scrambled Eggs",
+            "chinese": "滑蛋蝦仁"
+        },
+        "description": "Shrimp cooked with smooth scrambled eggs, seasoned lightly.",
+        "meat": "seafood, egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent014",
+        "dishName": {
+            "english": "Stir-Fried Tiger Shrimps",
+            "chinese": "油爆大蝦"
+        },
+        "description": "Large prawns quickly stir-fried in hot oil with seasonings, resulting in a crispy texture.",
+        "meat": "seafood",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent015",
+        "dishName": {
+            "english": "Blanched Vege Salad",
+            "chinese": "拌熟菜"
+        },
+        "description": "Lettuce stems/spinach/water spinach blanched and dressed with light garlic sauce.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "ent016",
+        "dishName": {
+            "english": "Stir-Fried Mixed Vegetables",
+            "chinese": "爆炒素三鲜"
+        },
+        "description": "Bamboo shoots, wood ear mushrooms, and carrots quickly stir-fried together.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou001",
+        "dishName": {
+            "english": "Nourishing Old Chicken Soup",
+            "chinese": "滋補老雞湯"
+        },
+        "description": "Free-range chicken and red dates simmered.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou002",
+        "dishName": {
+            "english": "Jianyang Mutton Soup",
+            "chinese": "簡陽羊肉湯"
+        },
+        "description": "Lamb leg meat simmered with spices.",
+        "meat": "lamb",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou003",
+        "dishName": {
+            "english": "Tofu Fish Soup",
+            "chinese": "豆腐魚湯"
+        },
+        "description": "Sweet osmanthus fish/crucian carp/perch, tofu, and millet simmered.",
+        "meat": "fish",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou004",
+        "dishName": {
+            "english": "Vegetable Meatball Soup",
+            "chinese": "時蔬丸子湯"
+        },
+        "description": "Seasonal vegetables and pork meatballs in broth.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou005",
+        "dishName": {
+            "english": "Clear Braised Oxtail Soup",
+            "chinese": "清燉牛尾湯"
+        },
+        "description": "Oxtail stewed with spices.",
+        "meat": "beef",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou006",
+        "dishName": {
+            "english": "Lotus Root and Pork Bone Soup",
+            "chinese": "蓮藕筒骨湯"
+        },
+        "description": "Lotus root and pork bones simmered.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou007",
+        "dishName": {
+            "english": "Tomato Seaweed Egg Drop Soup",
+            "chinese": "番茄紫菜蛋花湯"
+        },
+        "description": "Tomatoes, seaweed, dried shrimp, and eggs combined.",
+        "meat": "seafood, egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou008",
+        "dishName": {
+            "english": "Watercress Omelette Soup",
+            "chinese": "潺菜煎蛋湯"
+        },
+        "description": "Watercress and omelette in broth.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou009",
+        "dishName": {
+            "english": "Kimchi Tofu Soup",
+            "chinese": "泡菜豆腐湯"
+        },
+        "description": "Kimchi, tofu, and bean sprouts in a spicy broth.",
+        "meat": "other",
+        "isVegan": false,
+        "isSpicy": true
+    }
+    
+]
