@@ -24,7 +24,7 @@ const TODAY_SECTIONS = [
     tokens: [
       'wok001','wok002','wok004','wok005','wok006','wok007','wok008','wok009',
       'wok010','wok011','wok012','wok013','wok014','wok015',
-      'wok017','wok018','wok019','wok020','wok021','wok022',
+      'wok017','wok018','wok019','wok020','wok022','wok024',
       'sup016','sup017',
     ],
   },
@@ -46,7 +46,7 @@ const TODAY_SECTIONS = [
   {
     id: 'snacks',
     title: { zh: '小食', py: 'xiǎo shí', en: 'Snacks' },
-    tokens: ['wok016','snk001'],
+    tokens: ['wok016','snk001','wok021','snk003'],
   },
   {
     id: 'riceNoodles',

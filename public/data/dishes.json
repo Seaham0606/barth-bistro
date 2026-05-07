@@ -168,7 +168,7 @@
       "zh": "雜菇粉條燉雞"
     },
     "description": {
-      "en": "Free-range chicken stewed with mixed mushrooms and glass noodles.",
+      "en": "Free-range chicken stewed with mixed mushrooms and sweet potato noodles.",
       "zh": "土雞、雜菇與粉條同燉，湯鮮味濃。"
     },
     "meat": "chicken",
@@ -1038,7 +1038,7 @@
   },
   {
     "tokenName": "wok021",
-    "category": "wok",
+    "category": "snacks",
     "dishName": {
       "en": "Sweet & Sour Crispy Potato",
       "zh": "糖醋土豆花"
@@ -1292,6 +1292,44 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ]
+  },
+  {
+    "tokenName": "snk003",
+    "category": "snacks",
+    "dishName": {
+      "en": "Sichuan Spicy Jelly Noodles",
+      "zh": "傷心涼粉"
+    },
+    "description": {
+      "en": "Chilled mung bean jelly noodles tossed with chili oil, black vinegar and roasted peanuts.",
+      "zh": "冰涼涼粉拌紅油、香醋與花生，酸辣開胃。"
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "素"
+    ]
+  },
+  {
+    "tokenName": "wok024",
+    "category": "wok",
+    "dishName": {
+      "en": "Hand-Torn Cabbage",
+      "zh": "手撕包菜"
+    },
+    "description": {
+      "en": "Cabbage hand-torn and wok-fried with dried chili, garlic and a splash of black vinegar.",
+      "zh": "包菜手撕，乾辣椒、蒜片旺火爆炒，香醋提味。"
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "素"
     ]
   }
 ]
