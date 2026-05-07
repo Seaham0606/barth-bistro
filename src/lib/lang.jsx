@@ -1,7 +1,7 @@
 import React from 'react';
 
 const KEY = 'bb_lang';
-let _current = 'en';
+let _current = 'zh';
 try {
   const stored = localStorage.getItem(KEY);
   if (stored === 'zh' || stored === 'en') _current = stored;

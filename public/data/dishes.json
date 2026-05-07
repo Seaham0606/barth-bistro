@@ -16,6 +16,11 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "黃瓜",
+      "紅油",
+      "芝麻油"
     ]
   },
   {
@@ -35,6 +40,10 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "菠菜",
+      "紅油"
     ]
   },
   {
@@ -53,6 +62,12 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "雞胸肉",
+      "芝麻醬",
+      "紅油",
+      "花椒油"
     ]
   },
   {
@@ -71,6 +86,11 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "牛展",
+      "貢菜",
+      "紅油"
     ]
   },
   {
@@ -90,6 +110,10 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "青椒",
+      "食用油"
     ]
   },
   {
@@ -108,6 +132,10 @@
     "isSpicy": false,
     "tags": [
       "素"
+    ],
+    "ingredients": [
+      "時令蔬菜",
+      "芝麻油"
     ]
   },
   {
@@ -124,7 +152,14 @@
     "meat": "beef",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "牛肋條",
+      "番茄",
+      "胡蘿蔔",
+      "白蘿蔔",
+      "八角"
+    ]
   },
   {
     "tokenName": "wok002",
@@ -140,7 +175,14 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "排骨",
+      "土豆",
+      "芋頭",
+      "鮮竹筍",
+      "料酒"
+    ]
   },
   {
     "tokenName": "wok003",
@@ -158,6 +200,13 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "羊腩",
+      "郫縣豆瓣醬",
+      "花椒",
+      "乾辣椒",
+      "料酒"
     ]
   },
   {
@@ -174,7 +223,14 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "土雞",
+      "香菇",
+      "平菇",
+      "木耳",
+      "紅薯粉條"
+    ]
   },
   {
     "tokenName": "wok005",
@@ -192,6 +248,11 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "粉絲",
+      "豬肉末",
+      "郫縣豆瓣醬"
     ]
   },
   {
@@ -208,7 +269,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬里脊",
+      "青椒",
+      "食用油"
+    ]
   },
   {
     "tokenName": "wok007",
@@ -226,6 +292,12 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "豬里脊",
+      "木耳",
+      "筍絲",
+      "郫縣豆瓣醬"
     ]
   },
   {
@@ -242,7 +314,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "四季豆",
+      "豬肉末",
+      "食用油"
+    ]
   },
   {
     "tokenName": "wok009",
@@ -260,6 +337,13 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "雞塊",
+      "乾辣椒",
+      "花椒",
+      "料酒",
+      "食用油"
     ]
   },
   {
@@ -279,6 +363,12 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "芹菜",
+      "煙燻豆乾",
+      "乾辣椒",
+      "食用油"
     ]
   },
   {
@@ -295,7 +385,12 @@
     "meat": "other",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "雞蛋",
+      "韭黃",
+      "食用油"
+    ]
   },
   {
     "tokenName": "wok012",
@@ -311,7 +406,12 @@
     "meat": "other",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "番茄",
+      "雞蛋",
+      "食用油"
+    ]
   },
   {
     "tokenName": "wok013",
@@ -329,6 +429,11 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "蝦仁",
+      "雞蛋",
+      "食用油"
     ]
   },
   {
@@ -347,6 +452,11 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "大虎蝦",
+      "料酒",
+      "食用油"
     ]
   },
   {
@@ -363,7 +473,14 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "排骨",
+      "蒸肉米粉",
+      "五香粉",
+      "豆瓣醬",
+      "紅薯"
+    ]
   },
   {
     "tokenName": "stm002",
@@ -381,6 +498,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "雞蛋",
+      "蝦皮",
+      "溫水",
+      "芝麻油"
     ]
   },
   {
@@ -397,7 +520,13 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬肉末",
+      "雞蛋",
+      "芝麻油",
+      "高湯"
+    ]
   },
   {
     "tokenName": "stm004",
@@ -415,6 +544,11 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "冬瓜",
+      "瑤柱（乾貝）",
+      "高湯"
     ]
   },
   {
@@ -431,7 +565,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "嫩豆腐",
+      "豬肉末",
+      "芝麻油"
+    ]
   },
   {
     "tokenName": "stm006",
@@ -447,7 +586,13 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "雞件",
+      "香菇",
+      "蠔油",
+      "芝麻油"
+    ]
   },
   {
     "tokenName": "stm007",
@@ -465,6 +610,12 @@
     "isSpicy": false,
     "tags": [
       "素"
+    ],
+    "ingredients": [
+      "金針菇",
+      "粉絲",
+      "辣椒",
+      "食用油"
     ]
   },
   {
@@ -484,6 +635,10 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "茄子",
+      "紅油"
     ]
   },
   {
@@ -500,7 +655,12 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "走地老雞",
+      "紅棗",
+      "枸杞"
+    ]
   },
   {
     "tokenName": "sup002",
@@ -516,7 +676,11 @@
     "meat": "lamb",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "羊腿肉",
+      "白胡椒"
+    ]
   },
   {
     "tokenName": "sup003",
@@ -534,6 +698,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "鮮魚",
+      "嫩豆腐",
+      "小米",
+      "食用油"
     ]
   },
   {
@@ -550,7 +720,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬肉末",
+      "時令蔬菜",
+      "高湯"
+    ]
   },
   {
     "tokenName": "sup005",
@@ -566,7 +741,12 @@
     "meat": "beef",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "牛尾",
+      "八角",
+      "白胡椒"
+    ]
   },
   {
     "tokenName": "sup006",
@@ -582,7 +762,11 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "蓮藕",
+      "豬筒骨"
+    ]
   },
   {
     "tokenName": "sup007",
@@ -600,6 +784,13 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "番茄",
+      "紫菜",
+      "雞蛋",
+      "蝦皮",
+      "芝麻油"
     ]
   },
   {
@@ -616,7 +807,13 @@
     "meat": "other",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "潺菜（木耳菜）",
+      "雞蛋",
+      "高湯",
+      "食用油"
+    ]
   },
   {
     "tokenName": "sup009",
@@ -635,6 +832,13 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "泡菜",
+      "嫩豆腐",
+      "豆芽",
+      "高湯",
+      "芝麻油"
     ]
   },
   {
@@ -654,6 +858,11 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "白蘿蔔",
+      "包菜",
+      "紅油"
     ]
   },
   {
@@ -672,6 +881,15 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "豬里脊",
+      "郫縣豆瓣醬",
+      "豆芽",
+      "芹菜",
+      "乾辣椒",
+      "花椒",
+      "食用油"
     ]
   },
   {
@@ -688,7 +906,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "排骨",
+      "蠔油",
+      "芝麻油"
+    ]
   },
   {
     "tokenName": "stm010",
@@ -706,6 +929,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "絲瓜",
+      "粉絲",
+      "蝦米",
+      "食用油"
     ]
   },
   {
@@ -722,7 +951,12 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "雞件或鮮魚",
+      "蠔油",
+      "料酒"
+    ]
   },
   {
     "tokenName": "stm012",
@@ -738,7 +972,12 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "走地雞",
+      "五指毛桃",
+      "紅棗"
+    ]
   },
   {
     "tokenName": "sup010",
@@ -754,7 +993,16 @@
     "meat": "beef",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "牛腩",
+      "番茄",
+      "捲心菜",
+      "土豆",
+      "胡蘿蔔",
+      "洋蔥",
+      "番茄醬"
+    ]
   },
   {
     "tokenName": "sup011",
@@ -770,7 +1018,12 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "排骨",
+      "青椒",
+      "料酒"
+    ]
   },
   {
     "tokenName": "sup012",
@@ -786,7 +1039,13 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "走地雞",
+      "香菇",
+      "平菇",
+      "茶樹菇"
+    ]
   },
   {
     "tokenName": "sup013",
@@ -804,6 +1063,11 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "絲瓜",
+      "魚腐",
+      "高湯"
     ]
   },
   {
@@ -822,6 +1086,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "三文魚頸",
+      "嫩豆腐",
+      "白味噌",
+      "柴魚高湯"
     ]
   },
   {
@@ -841,6 +1111,15 @@
     "tags": [
       "辣",
       "海"
+    ],
+    "ingredients": [
+      "米粉",
+      "椰漿",
+      "叻沙醬",
+      "蝦",
+      "豆卜",
+      "叻沙葉",
+      "豆芽"
     ]
   },
   {
@@ -859,6 +1138,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "白米",
+      "芋頭",
+      "蝦米",
+      "豬油"
     ]
   },
   {
@@ -875,7 +1160,14 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "白米",
+      "春蔬",
+      "嫩竹筍",
+      "鹹豬肉",
+      "豬油"
+    ]
   },
   {
     "tokenName": "nrc004",
@@ -891,7 +1183,12 @@
     "meat": "other",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "隔夜白米飯",
+      "雞蛋",
+      "豬油"
+    ]
   },
   {
     "tokenName": "nrc005",
@@ -909,6 +1206,13 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "白米飯",
+      "豬肉末",
+      "九層塔",
+      "辣椒",
+      "魚露"
     ]
   },
   {
@@ -925,7 +1229,13 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬里脊",
+      "番茄",
+      "雞蛋清",
+      "高湯"
+    ]
   },
   {
     "tokenName": "sup016",
@@ -943,6 +1253,14 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "豆花",
+      "豬肉末",
+      "花生",
+      "宜賓芽菜",
+      "紅油",
+      "花椒油"
     ]
   },
   {
@@ -959,7 +1277,13 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬五花肉",
+      "花椒粉",
+      "雞蛋",
+      "食用油"
+    ]
   },
   {
     "tokenName": "wok017",
@@ -978,6 +1302,11 @@
     "tags": [
       "辣",
       "海"
+    ],
+    "ingredients": [
+      "整條鱸魚",
+      "郫縣豆瓣醬",
+      "食用油"
     ]
   },
   {
@@ -997,6 +1326,12 @@
     "tags": [
       "辣",
       "海"
+    ],
+    "ingredients": [
+      "大虎蝦",
+      "椒鹽",
+      "辣椒",
+      "食用油"
     ]
   },
   {
@@ -1016,6 +1351,11 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "牛肝菌",
+      "乾辣椒",
+      "食用油"
     ]
   },
   {
@@ -1034,6 +1374,12 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "花椰菜",
+      "臘肉",
+      "乾辣椒",
+      "郫縣豆瓣醬"
     ]
   },
   {
@@ -1052,6 +1398,11 @@
     "isSpicy": false,
     "tags": [
       "素"
+    ],
+    "ingredients": [
+      "土豆",
+      "番茄醬",
+      "食用油"
     ]
   },
   {
@@ -1070,6 +1421,11 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "羊肩肉",
+      "孜然",
+      "乾辣椒"
     ]
   },
   {
@@ -1089,6 +1445,13 @@
     "tags": [
       "辣",
       "海"
+    ],
+    "ingredients": [
+      "鱸魚片",
+      "四川酸菜",
+      "雞蛋清",
+      "乾辣椒",
+      "花椒"
     ]
   },
   {
@@ -1105,7 +1468,14 @@
     "meat": "beef",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "手拉麵",
+      "牛腱",
+      "牛筋",
+      "八角",
+      "料酒"
+    ]
   },
   {
     "tokenName": "stm013",
@@ -1123,6 +1493,11 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "茄子",
+      "豬肉末",
+      "郫縣豆瓣醬"
     ]
   },
   {
@@ -1142,6 +1517,12 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "時令蔬菜",
+      "糟辣椒",
+      "花生",
+      "折耳根"
     ]
   },
   {
@@ -1158,7 +1539,13 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "白米",
+      "青菜",
+      "臘肉",
+      "豬油"
+    ]
   },
   {
     "tokenName": "nrc008",
@@ -1176,6 +1563,15 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "雞腿肉",
+      "白米飯",
+      "椰漿",
+      "馬來咖喱醬",
+      "麵包糠",
+      "雞蛋",
+      "食用油"
     ]
   },
   {
@@ -1192,7 +1588,17 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "雞腿肉",
+      "日式咖喱塊",
+      "洋蔥",
+      "土豆",
+      "胡蘿蔔",
+      "麵包糠",
+      "雞蛋",
+      "白米飯"
+    ]
   },
   {
     "tokenName": "nrc010",
@@ -1208,7 +1614,15 @@
     "meat": "chicken",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "雞腿肉",
+      "洋蔥",
+      "雞蛋",
+      "柴魚高湯",
+      "味醂",
+      "白米飯"
+    ]
   },
   {
     "tokenName": "wok023",
@@ -1226,6 +1640,12 @@
     "isSpicy": true,
     "tags": [
       "辣"
+    ],
+    "ingredients": [
+      "牛肉片",
+      "豆花",
+      "烧椒（烤青辣椒）",
+      "高湯"
     ]
   },
   {
@@ -1242,7 +1662,15 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬肉",
+      "雞件",
+      "豆乾",
+      "八角",
+      "五香粉",
+      "桂皮"
+    ]
   },
   {
     "tokenName": "sup018",
@@ -1258,7 +1686,12 @@
     "meat": "lamb",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "羊肉",
+      "孜然",
+      "小茴香"
+    ]
   },
   {
     "tokenName": "sup019",
@@ -1274,7 +1707,11 @@
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
-    "tags": []
+    "tags": [],
+    "ingredients": [
+      "豬蹄",
+      "料酒"
+    ]
   },
   {
     "tokenName": "sup020",
@@ -1292,6 +1729,12 @@
     "isSpicy": false,
     "tags": [
       "海"
+    ],
+    "ingredients": [
+      "走地雞",
+      "花膠",
+      "紅棗",
+      "枸杞"
     ]
   },
   {
@@ -1311,6 +1754,11 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "綠豆涼粉",
+      "紅油",
+      "花生"
     ]
   },
   {
@@ -1330,6 +1778,11 @@
     "tags": [
       "辣",
       "素"
+    ],
+    "ingredients": [
+      "包菜",
+      "乾辣椒",
+      "食用油"
     ]
   }
 ]

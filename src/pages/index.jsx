@@ -39,20 +39,7 @@ function HomePage() {
           </h1>
           <span className="hanzi-bot zh">巴 塞 餐 廳</span>
           <span className="rule"></span>
-          <div className="meta" style={{ margin: '24px 0px 0px' }}>
-            <div className="col">
-              <span className="label">Hours</span>
-              <span className="value">By arrangement</span>
-            </div>
-            <div className="col">
-              <span className="label">Seats</span>
-              <span className="value">Twelve, communal</span>
-            </div>
-            <div className="col">
-              <span className="label">Access</span>
-              <span className="value">By invitation</span>
-            </div>
-          </div>
+          <span className="value" style={{ margin: '24px 0px 0px', display: 'block', textAlign: 'center', fontFamily: "'Cormorant Garamond', 'KuMincho', 'Noto Serif SC', serif", fontSize: '15px', fontStyle: 'italic', color: 'var(--ink)' }}>By invitation only</span>
           <a href="menu.html" className="enter" onClick={enter('menu.html')}>
             <span>View today's menu</span>
             <span className="arrow"></span>
