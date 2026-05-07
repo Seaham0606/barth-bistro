@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import emailjs from '@emailjs/browser';
 import { useLang, t, tFn, Legend } from '../lib/lang';
 import { MuseumChromeTop, MuseumChromeBottom } from '../components/MuseumChrome';
 import { MenuSection } from '../components/MenuSection';
@@ -161,8 +162,26 @@ function MenuPage() {
     ? Array.from(selected).map(tok => dishesIndex[tok]).filter(Boolean)
     : [];
 
-  const submit = () => {
+  const submit = (form) => {
     const code = 'BB-' + Math.random().toString(36).slice(2, 6).toUpperCase() + '-' + Date.now().toString().slice(-4);
+    const dishes = selectedDishes.map(d => d.dishName?.zh || d.tokenName).join('、');
+    const allIngredients = selectedDishes.flatMap(d => d.ingredients || []);
+    const shopping_list = [...new Set(allIngredients)].join('、');
+
+    emailjs.send(
+      'service_crbnuwj',
+      'template_vugqzr8',
+      {
+        name: form.name,
+        email: form.email,
+        allergies: form.allergies || '無',
+        dishes,
+        shopping_list,
+        reference: code,
+      },
+      'EFctIbpL81CJtoWuJ',
+    ).catch(err => console.error('EmailJS error:', err));
+
     setSubmitted(code);
   };
 
