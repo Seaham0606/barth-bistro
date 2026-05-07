@@ -14,33 +14,43 @@ import '../styles.css';
 
 const TODAY_SECTIONS = [
   {
-    id: 'appetizers',
-    title: { zh: '前菜', py: 'qián cài', en: 'Appetizers' },
+    id: 'coldStarters',
+    title: { zh: '涼菜', py: 'liáng cài', en: 'Cold Starters' },
     tokens: ['app001','app002','app003','app004','app005','app006','app007','app008'],
   },
   {
-    id: 'soups',
-    title: { zh: '燉湯', py: 'dùn tāng', en: 'Stews & Soups' },
-    tokens: ['sup001','sup002','sup003','sup004','sup005','sup006','sup007','sup008','sup009','sup010','sup011','sup012','sup013','sup014','sup015','sup016','sup017'],
+    id: 'wok',
+    title: { zh: '熱炒', py: 'rè chǎo', en: 'Wok & Hot Dishes' },
+    tokens: [
+      'wok001','wok002','wok004','wok005','wok006','wok007','wok008','wok009',
+      'wok010','wok011','wok012','wok013','wok014','wok015',
+      'wok017','wok018','wok019','wok020','wok021','wok022',
+      'sup016','sup017',
+    ],
   },
   {
-    id: 'wok',
-    title: { zh: '炒菜', py: 'chǎo cài', en: 'From the Wok' },
-    tokens: ['wok001','wok002','wok003','wok004','wok005','wok006','wok007','wok008','wok009','wok010','wok011','wok012','wok013','wok014','wok016','wok017','wok018','wok019','wok020','wok021','wok022'],
+    id: 'clayPot',
+    title: { zh: '煲仔', py: 'bāo zǎi', en: 'Clay Pot' },
+    tokens: ['wok003','stm011','stm012','stm013','wok023','sup015'],
   },
   {
     id: 'steamed',
-    title: { zh: '蒸菜', py: 'zhēng cài', en: 'From the Steamer' },
+    title: { zh: '蒸菜', py: 'zhēng cài', en: 'Steamed' },
     tokens: ['stm001','stm002','stm003','stm004','stm005','stm006','stm007','stm008','stm009','stm010'],
   },
   {
-    id: 'claypot',
-    title: { zh: '煲', py: 'bāo', en: 'Clay Pot' },
-    tokens: ['stm011','stm012','stm013','wok015'],
+    id: 'soup',
+    title: { zh: '湯品', py: 'tāng pǐn', en: 'Soups' },
+    tokens: ['sup001','sup002','sup003','sup004','sup005','sup006','sup007','sup008','sup009','sup010','sup011','sup012','sup013','sup014','sup018','sup019','sup020'],
   },
   {
-    id: 'noodles',
-    title: { zh: '麵飯', py: 'miàn fàn', en: 'Noodles & Rice' },
+    id: 'snacks',
+    title: { zh: '小食', py: 'xiǎo shí', en: 'Snacks' },
+    tokens: ['wok016','snk001'],
+  },
+  {
+    id: 'riceNoodles',
+    title: { zh: '主食', py: 'zhǔ shí', en: 'Rice & Noodles' },
     tokens: ['nrc001','nrc002','nrc003','nrc004','nrc005','nrc006','nrc007','nrc008','nrc009','nrc010'],
   },
 ];

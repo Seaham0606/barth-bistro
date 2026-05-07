@@ -1,13 +1,26 @@
 import React from 'react';
 import { useLang } from '../lib/lang';
 
+const TAG_CONFIG = {
+  '辣': { en: 'S', cls: 'hot' },
+  '素': { en: 'V', cls: 'plant' },
+  '海': { en: 'F', cls: 'sea' },
+};
+
+function deriveTags(dish) {
+  if (Array.isArray(dish.tags)) return dish.tags;
+  const t = [];
+  if (dish.isSpicy) t.push('辣');
+  if (dish.isVegan) t.push('素');
+  if (dish.meat === 'seafood') t.push('海');
+  return t;
+}
+
 export function DishCard({ dish, composeMode, selected, onToggle }) {
   const [lang] = useLang();
   if (!dish) return null;
 
-  const tags = [];
-  if (dish.isSpicy) tags.push({ en: 'S', zh: '辣', cls: 'hot' });
-  if (dish.isVegan) tags.push({ en: 'V', zh: '素', cls: 'plant' });
+  const tags = deriveTags(dish).map(ch => ({ zh: ch, ...TAG_CONFIG[ch] })).filter(t => t.cls);
 
   const handleClick = () => {
     if (composeMode && onToggle) onToggle(dish);
