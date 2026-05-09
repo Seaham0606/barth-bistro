@@ -14,46 +14,13 @@ import {
 import '../styles.css';
 
 const TODAY_SECTIONS = [
-  {
-    id: 'coldStarters',
-    title: { zh: '涼菜', py: 'liáng cài', en: 'Cold Starters' },
-    tokens: ['app001','app002','app003','app004','app005','app006','app007','app008'],
-  },
-  {
-    id: 'wok',
-    title: { zh: '熱炒', py: 'rè chǎo', en: 'Wok & Hot Dishes' },
-    tokens: [
-      'wok001','wok002','wok004','wok005','wok006','wok007','wok008','wok009',
-      'wok010','wok011','wok012','wok013','wok014','wok015',
-      'wok017','wok018','wok019','wok020','wok022','wok024',
-      'sup016','sup017',
-    ],
-  },
-  {
-    id: 'clayPot',
-    title: { zh: '煲仔', py: 'bāo zǎi', en: 'Clay Pot' },
-    tokens: ['wok003','stm011','stm012','stm013','wok023','sup015'],
-  },
-  {
-    id: 'steamed',
-    title: { zh: '蒸菜', py: 'zhēng cài', en: 'Steamed' },
-    tokens: ['stm001','stm002','stm003','stm004','stm005','stm006','stm007','stm008','stm009','stm010'],
-  },
-  {
-    id: 'soup',
-    title: { zh: '湯品', py: 'tāng pǐn', en: 'Soups' },
-    tokens: ['sup001','sup002','sup003','sup004','sup005','sup006','sup007','sup008','sup009','sup010','sup011','sup012','sup013','sup014','sup018','sup019','sup020'],
-  },
-  {
-    id: 'snacks',
-    title: { zh: '小食', py: 'xiǎo shí', en: 'Snacks' },
-    tokens: ['wok016','snk001','wok021','snk003'],
-  },
-  {
-    id: 'riceNoodles',
-    title: { zh: '主食', py: 'zhǔ shí', en: 'Rice & Noodles' },
-    tokens: ['nrc001','nrc002','nrc003','nrc004','nrc005','nrc006','nrc007','nrc008','nrc009','nrc010'],
-  },
+  { id: 'coldStarters', category: 'coldStarters', title: { zh: '涼菜', py: 'liáng cài', en: 'Cold Starters' } },
+  { id: 'wok',          category: 'wok',          title: { zh: '熱炒', py: 'rè chǎo',   en: 'Wok & Hot Dishes' } },
+  { id: 'clayPot',      category: 'clayPot',      title: { zh: '煲仔', py: 'bāo zǎi',   en: 'Clay Pot' } },
+  { id: 'steamed',      category: 'steamed',      title: { zh: '蒸菜', py: 'zhēng cài', en: 'Steamed' } },
+  { id: 'soup',         category: 'soup',         title: { zh: '湯品', py: 'tāng pǐn',  en: 'Soups' } },
+  { id: 'riceNoodles',  category: 'riceNoodles',  title: { zh: '主食', py: 'zhǔ shí',   en: 'Rice & Noodles' } },
+  { id: 'snacks',       category: 'snacks',       title: { zh: '小食', py: 'xiǎo shí',  en: 'Snacks' } },
 ];
 
 function todayString() {
@@ -82,7 +49,7 @@ function MenuPage() {
   }, [tw.theme]);
 
   const [lang] = useLang();
-  const [dishesIndex, setDishesIndex] = React.useState(null);
+  const [dishesByCategory, setDishesByCategory] = React.useState(null);
   const [composeMode, setComposeMode] = React.useState(false);
   const [selected, setSelected] = React.useState(new Set());
   const [panelOpen, setPanelOpen] = React.useState(false);
@@ -104,15 +71,18 @@ function MenuPage() {
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener('scroll', onScroll);
-  }, [dishesIndex]);
+  }, [dishesByCategory]);
 
   React.useEffect(() => {
     fetch('data/dishes.json')
       .then(r => r.json())
       .then(arr => {
-        const idx = {};
-        arr.forEach(d => { idx[d.tokenName] = d; });
-        setDishesIndex(idx);
+        const byCategory = {};
+        arr.forEach(d => {
+          if (!byCategory[d.category]) byCategory[d.category] = [];
+          byCategory[d.category].push(d);
+        });
+        setDishesByCategory(byCategory);
       })
       .catch(err => console.error('Failed to load dishes', err));
   }, []);
@@ -158,6 +128,13 @@ function MenuPage() {
     setPanelStep('review');
   };
 
+  const dishesIndex = React.useMemo(() => {
+    if (!dishesByCategory) return null;
+    const idx = {};
+    Object.values(dishesByCategory).flat().forEach(d => { idx[d.tokenName] = d; });
+    return idx;
+  }, [dishesByCategory]);
+
   const selectedDishes = dishesIndex
     ? Array.from(selected).map(tok => dishesIndex[tok]).filter(Boolean)
     : [];
@@ -202,7 +179,7 @@ function MenuPage() {
       <SectionNav sections={TODAY_SECTIONS} activeId={activeSection} />
 
       <div className="menu">
-        {!dishesIndex ? (
+        {!dishesByCategory ? (
           <div className="empty-state"><p>{t('setting')}</p></div>
         ) : (
           TODAY_SECTIONS.map(sec => (
@@ -210,8 +187,7 @@ function MenuPage() {
               key={sec.id}
               id={sec.id}
               title={sec.title}
-              tokens={sec.tokens}
-              dishesIndex={dishesIndex}
+              dishes={dishesByCategory[sec.category] || []}
               composeMode={composeMode}
               selectedSet={selected}
               onToggle={toggle}

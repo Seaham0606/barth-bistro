@@ -2,9 +2,8 @@ import React from 'react';
 import { useLang } from '../lib/lang';
 import { DishCard } from './DishCard';
 
-export function MenuSection({ id, title, tokens, dishesIndex, composeMode, selectedSet, onToggle }) {
+export function MenuSection({ id, title, dishes = [], composeMode, selectedSet, onToggle }) {
   const [lang] = useLang();
-  const dishes = tokens.map(t => dishesIndex[t]).filter(Boolean);
   const sid = id || (title.en || '').toLowerCase().replace(/\s+/g, '-');
   return (
     <section id={`section-${sid}`} className={`menu-section ${composeMode ? 'compose-mode' : ''}`}>
