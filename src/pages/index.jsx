@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { usePageCurtain } from '../hooks/usePageCurtain';
+import { BBButton } from '../components/BBButton';
 import '../styles.css';
 import '../home.css';
 
@@ -40,10 +41,9 @@ function HomePage() {
           <span className="hanzi-bot zh">巴 塞 餐 廳</span>
           <span className="rule"></span>
           <span className="value" style={{ margin: '24px 0px 0px', display: 'block', textAlign: 'center', fontFamily: "'Cormorant Garamond', 'KuMincho', 'Noto Serif SC', serif", fontSize: '15px', fontStyle: 'italic', color: 'var(--ink)' }}>By invitation only</span>
-          <a href="menu.html" className="enter" onClick={enter('menu.html')}>
-            <span>View today's menu</span>
-            <span className="arrow"></span>
-          </a>
+          <BBButton href="menu.html" onClick={enter('menu.html')} showArrow={true}>
+            View today's menu
+          </BBButton>
         </article>
       </section>
 

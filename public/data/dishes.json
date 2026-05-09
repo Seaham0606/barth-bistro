@@ -3,12 +3,12 @@
     "tokenName": "app001",
     "category": "coldStarters",
     "dishName": {
-      "en": "Cucumber with Garlic Sauce",
+      "en": "Garlic Cucumber Salad",
       "zh": "蒜泥黃瓜"
     },
     "description": {
-      "en": "Smashed cucumber tossed in garlic and chili oil.",
-      "zh": "拍黃瓜，蒜泥紅油涼拌。"
+      "en": "Smashed cucumber tossed with garlic and chili oil.",
+      "zh": "拍黃瓜拌蒜泥與紅油。"
     },
     "meat": "other",
     "isVegan": true,
@@ -19,43 +19,48 @@
     ],
     "ingredients": [
       "黃瓜",
+      "蒜",
       "紅油",
-      "芝麻油"
+      "芝麻油",
+      "芝麻",
+      "生抽"
     ]
   },
   {
     "tokenName": "app002",
     "category": "coldStarters",
     "dishName": {
-      "en": "Spinach with Vinegar",
-      "zh": "老醋菠菜"
+      "en": "Black Vinegar Spinach",
+      "zh": "陳醋菠菜"
     },
     "description": {
-      "en": "Blanched spinach dressed with aged vinegar and chili.",
-      "zh": "菠菜汆水，老醋涼拌，微辣爽口。"
+      "en": "Blanched spinach tossed with garlic and aged black vinegar.",
+      "zh": "菠菜汆水後拌蒜泥與陳醋。"
     },
     "meat": "other",
     "isVegan": true,
-    "isSpicy": true,
+    "isSpicy": false,
     "tags": [
-      "辣",
       "素"
     ],
     "ingredients": [
       "菠菜",
-      "紅油"
+      "蒜",
+      "陳醋",
+      "芝麻",
+      "生抽"
     ]
   },
   {
     "tokenName": "app003",
     "category": "coldStarters",
     "dishName": {
-      "en": "Shredded Chicken Salad",
-      "zh": "口水雞絲"
+      "en": "Mouthwatering Chicken",
+      "zh": "口水雞"
     },
     "description": {
-      "en": "Poached chicken shreds tossed in a spicy sesame dressing.",
-      "zh": "雞絲涼拌，麻辣芝麻醬汁。"
+      "en": "Chilled chicken leg tossed in garlic chili oil sauce.",
+      "zh": "雞腿肉冷切，拌紅油蒜香醬汁。"
     },
     "meat": "chicken",
     "isVegan": false,
@@ -64,22 +69,24 @@
       "辣"
     ],
     "ingredients": [
-      "雞胸肉",
-      "芝麻醬",
+      "雞腿肉",
       "紅油",
-      "花椒油"
+      "蒜",
+      "芝麻",
+      "生抽",
+      "糖"
     ]
   },
   {
     "tokenName": "app004",
     "category": "coldStarters",
     "dishName": {
-      "en": "Beef Shank with Dried Lettuce",
+      "en": "Beef Shank with Celtuce Stem",
       "zh": "貢菜牛展"
     },
     "description": {
-      "en": "Chilled beef shank and dried lettuce in chili oil.",
-      "zh": "牛展薄切，貢菜辣油涼拌。"
+      "en": "Braised beef shank tossed with celtuce stem and celery.",
+      "zh": "滷牛腱配貢菜與西芹涼拌。"
     },
     "meat": "beef",
     "isVegan": false,
@@ -88,21 +95,28 @@
       "辣"
     ],
     "ingredients": [
-      "牛展",
+      "滷牛腱",
+      "紅油",
+      "蒜",
+      "芝麻",
+      "生抽",
+      "糖",
       "貢菜",
-      "紅油"
+      "西芹",
+      "蔥",
+      "花生"
     ]
   },
   {
     "tokenName": "app005",
     "category": "coldStarters",
     "dishName": {
-      "en": "Tiger Skin Green Peppers",
+      "en": "Blistered Green Peppers",
       "zh": "虎皮青椒"
     },
     "description": {
-      "en": "Pan-blistered green peppers seasoned with soy and vinegar.",
-      "zh": "青椒乾煸至虎皮，醬醋調味。"
+      "en": "Pan blistered green peppers tossed with garlic soy sauce.",
+      "zh": "青椒煸至虎皮後拌蒜香醬汁。"
     },
     "meat": "other",
     "isVegan": true,
@@ -113,19 +127,20 @@
     ],
     "ingredients": [
       "青椒",
-      "食用油"
+      "蒜",
+      "生抽"
     ]
   },
   {
     "tokenName": "app006",
     "category": "coldStarters",
     "dishName": {
-      "en": "Assorted Blanched Greens",
-      "zh": "拌熟菜"
+      "zh": "熟拌菜",
+      "en": "Blanched Vegetable Salad"
     },
     "description": {
-      "en": "Seasonal greens blanched and dressed with garlic sauce.",
-      "zh": "時令蔬菜汆熟，蒜汁涼拌。"
+      "en": "Blanched seasonal vegetables tossed with garlic and sesame.",
+      "zh": "時令蔬菜汆熟後拌蒜與芝麻。"
     },
     "meat": "other",
     "isVegan": true,
@@ -135,7 +150,85 @@
     ],
     "ingredients": [
       "時令蔬菜",
-      "芝麻油"
+      "蒜",
+      "芝麻"
+    ]
+  },
+  {
+    "tokenName": "app007",
+    "category": "coldStarters",
+    "dishName": {
+      "zh": "生拌菜",
+      "en": "Raw Vegetable Salad"
+    },
+    "description": {
+      "zh": "時令生蔬涼拌。",
+      "en": "Raw seasonal vegetables tossed cold."
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": false,
+    "tags": [
+      "素"
+    ],
+    "ingredients": [
+      "芝麻",
+      "芝麻油",
+      "香醋"
+    ],
+    "variants": [
+      {
+        "label": "蘿蔔絲",
+        "labelEn": "Shredded Radish",
+        "meat": "other",
+        "ingredients": [
+          "白蘿蔔",
+          "胡蘿蔔",
+          "芝麻",
+          "芝麻油",
+          "香醋"
+        ]
+      },
+      {
+        "label": "包菜",
+        "labelEn": "Cabbage",
+        "meat": "other",
+        "ingredients": [
+          "包菜",
+          "芝麻",
+          "芝麻油",
+          "香醋"
+        ]
+      }
+    ]
+  },
+  {
+    "tokenName": "app008",
+    "category": "coldStarters",
+    "dishName": {
+      "en": "Guizhou Mixed Vegetables",
+      "zh": "貴州拌菜"
+    },
+    "description": {
+      "en": "Tomato, eggplant, and green pepper tossed with garlic chili oil.",
+      "zh": "煸熟番茄、茄子與青椒後拌蒜香紅油。"
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "素"
+    ],
+    "ingredients": [
+      "番茄",
+      "茄子",
+      "青椒",
+      "蒜",
+      "紅油",
+      "芝麻油",
+      "生抽",
+      "香醋"
     ]
   },
   {
@@ -186,31 +279,6 @@
   },
   {
     "tokenName": "wok003",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Spicy Lamb Belly Stew",
-      "zh": "羊腩煲"
-    },
-    "description": {
-      "en": "Lamb belly braised in spicy bean paste, served in a clay pot.",
-      "zh": "羊腩辣豆瓣慢煲，連煲上桌。"
-    },
-    "meat": "lamb",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "羊腩",
-      "郫縣豆瓣醬",
-      "花椒",
-      "乾辣椒",
-      "料酒"
-    ]
-  },
-  {
-    "tokenName": "wok004",
     "category": "wok",
     "dishName": {
       "en": "Mushroom Glass Noodle Chicken Stew",
@@ -233,7 +301,7 @@
     ]
   },
   {
-    "tokenName": "wok005",
+    "tokenName": "wok004",
     "category": "wok",
     "dishName": {
       "en": "Glass Noodles with Minced Pork",
@@ -256,7 +324,7 @@
     ]
   },
   {
-    "tokenName": "wok006",
+    "tokenName": "wok005",
     "category": "wok",
     "dishName": {
       "en": "Shredded Pork with Green Peppers",
@@ -277,7 +345,7 @@
     ]
   },
   {
-    "tokenName": "wok007",
+    "tokenName": "wok006",
     "category": "wok",
     "dishName": {
       "en": "Yu Xiang Pork",
@@ -301,7 +369,7 @@
     ]
   },
   {
-    "tokenName": "wok008",
+    "tokenName": "wok007",
     "category": "wok",
     "dishName": {
       "en": "Minced Pork with Green Beans",
@@ -322,7 +390,7 @@
     ]
   },
   {
-    "tokenName": "wok009",
+    "tokenName": "wok008",
     "category": "wok",
     "dishName": {
       "en": "Sichuan Chili Chicken",
@@ -347,7 +415,7 @@
     ]
   },
   {
-    "tokenName": "wok010",
+    "tokenName": "wok009",
     "category": "wok",
     "dishName": {
       "en": "Celery with Smoked Tofu",
@@ -372,7 +440,7 @@
     ]
   },
   {
-    "tokenName": "wok011",
+    "tokenName": "wok010",
     "category": "wok",
     "dishName": {
       "en": "Stir-Fried Eggs with Leeks",
@@ -393,7 +461,7 @@
     ]
   },
   {
-    "tokenName": "wok012",
+    "tokenName": "wok011",
     "category": "wok",
     "dishName": {
       "en": "Scrambled Eggs with Tomatoes",
@@ -414,7 +482,7 @@
     ]
   },
   {
-    "tokenName": "wok013",
+    "tokenName": "wok012",
     "category": "wok",
     "dishName": {
       "en": "Shrimp with Scrambled Eggs",
@@ -437,7 +505,7 @@
     ]
   },
   {
-    "tokenName": "wok014",
+    "tokenName": "wok013",
     "category": "wok",
     "dishName": {
       "en": "Wok-Fried Tiger Shrimp",
@@ -460,6 +528,418 @@
     ]
   },
   {
+    "tokenName": "wok014",
+    "category": "wok",
+    "dishName": {
+      "en": "Sichuan Boiled Sliced Pork",
+      "zh": "水煮肉片"
+    },
+    "description": {
+      "en": "Pork slices poached in chili-bean broth, finished with hot oil.",
+      "zh": "肉片豆瓣熬汁，潑熱油激香，麻辣燙口。"
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "豬里脊",
+      "郫縣豆瓣醬",
+      "豆芽",
+      "芹菜",
+      "乾辣椒",
+      "花椒",
+      "食用油"
+    ]
+  },
+  {
+    "tokenName": "wok015",
+    "category": "wok",
+    "dishName": {
+      "en": "Dry-Braised Sea Bass",
+      "zh": "乾燒鱸魚"
+    },
+    "description": {
+      "en": "Whole sea bass braised in chili-bean sauce until the glaze clings.",
+      "zh": "整條鱸魚豆瓣醬乾燒收汁。"
+    },
+    "meat": "seafood",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "海"
+    ],
+    "ingredients": [
+      "整條鱸魚",
+      "郫縣豆瓣醬",
+      "食用油"
+    ]
+  },
+  {
+    "tokenName": "wok016",
+    "category": "wok",
+    "dishName": {
+      "en": "Salt-and-Pepper Tiger Shrimp",
+      "zh": "椒鹽大蝦"
+    },
+    "description": {
+      "en": "Shell-on prawns fried and tossed with Sichuan pepper-salt, garlic and chili.",
+      "zh": "帶殼大蝦旺火炸香，椒鹽、蒜蓉、辣椒拌勻。"
+    },
+    "meat": "seafood",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "海"
+    ],
+    "ingredients": [
+      "大虎蝦",
+      "椒鹽",
+      "辣椒",
+      "食用油"
+    ]
+  },
+  {
+    "tokenName": "wok017",
+    "category": "wok",
+    "dishName": {
+      "en": "Dry-Fried Porcini Mushrooms",
+      "zh": "乾爆牛肝菌"
+    },
+    "description": {
+      "en": "Yunnan porcini dry-fried with garlic and dried chili until edges char.",
+      "zh": "雲南牛肝菌猛火乾爆，蒜片辣椒提香，邊緣微焦。"
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "素"
+    ],
+    "ingredients": [
+      "牛肝菌",
+      "乾辣椒",
+      "食用油"
+    ]
+  },
+  {
+    "tokenName": "wok018",
+    "category": "wok",
+    "dishName": {
+      "en": "Dry-Pot Cauliflower",
+      "zh": "乾鍋花菜"
+    },
+    "description": {
+      "en": "Cauliflower dry-fried with cured pork belly, garlic and dried chili.",
+      "zh": "花菜與臘肉、乾辣椒乾鍋慢煸，香辣入味。"
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "花椰菜",
+      "臘肉",
+      "乾辣椒",
+      "郫縣豆瓣醬"
+    ]
+  },
+  {
+    "tokenName": "wok019",
+    "category": "wok",
+    "dishName": {
+      "en": "Cumin Lamb",
+      "zh": "孜然羊肉"
+    },
+    "description": {
+      "en": "Lamb shoulder wok-seared with cumin, dried chili and scallion.",
+      "zh": "羊肩肉旺火爆炒，孜然、辣椒、蔥段提香。"
+    },
+    "meat": "lamb",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "羊肩肉",
+      "孜然",
+      "乾辣椒"
+    ]
+  },
+  {
+    "tokenName": "wok020",
+    "category": "wok",
+    "dishName": {
+      "en": "Hand-Torn Cabbage",
+      "zh": "手撕包菜"
+    },
+    "description": {
+      "en": "Cabbage hand-torn and wok-fried with dried chili, garlic and a splash of black vinegar.",
+      "zh": "包菜手撕，乾辣椒、蒜片旺火爆炒，香醋提味。"
+    },
+    "meat": "other",
+    "isVegan": true,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "素"
+    ],
+    "ingredients": [
+      "包菜",
+      "乾辣椒",
+      "食用油"
+    ]
+  },
+  {
+    "tokenName": "cly001",
+    "category": "clayPot",
+    "dishName": {
+      "zh": "啫啫煲",
+      "en": "Sizzling Clay Pot"
+    },
+    "description": {
+      "zh": "醃製後入陶煲猛火啫啫，連煲上桌。",
+      "en": "Marinated protein cooked tableside in a sizzling clay pot."
+    },
+    "meat": "other",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "蠔油",
+      "料酒",
+      "薑"
+    ],
+    "variants": [
+      {
+        "label": "雞",
+        "labelEn": "Chicken",
+        "meat": "chicken",
+        "ingredients": [
+          "雞件",
+          "蠔油",
+          "料酒",
+          "薑"
+        ]
+      },
+      {
+        "label": "魚",
+        "labelEn": "Fish",
+        "meat": "fish",
+        "ingredients": [
+          "鮮魚",
+          "蠔油",
+          "料酒",
+          "薑"
+        ]
+      }
+    ]
+  },
+  {
+    "tokenName": "cly002",
+    "category": "clayPot",
+    "dishName": {
+      "en": "Five-Finger Peach Root Chicken Clay Pot",
+      "zh": "五指毛桃雞煲"
+    },
+    "description": {
+      "zh": "雞肉與五指毛桃、茯苓、陳皮同煲。",
+      "en": "Chicken braised with five-finger peach root, poria, and dried tangerine peel in a clay pot."
+    },
+    "meat": "chicken",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "五指毛桃",
+      "茯苓",
+      "陳皮",
+      "雞肉",
+      "薑",
+      "紅棗",
+      "南薑"
+    ]
+  },
+  {
+    "tokenName": "cly003",
+    "category": "clayPot",
+    "dishName": {
+      "en": "Minced Pork & Eggplant Clay Pot",
+      "zh": "肉末茄子煲"
+    },
+    "description": {
+      "zh": "茄子與肉末、豆瓣醬同煲。",
+      "en": "Eggplant braised with minced pork and chili bean sauce in a clay pot."
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "梅花肉",
+      "茄子",
+      "豆瓣醬",
+      "醬油",
+      "蒜",
+      "薑",
+      "花椒粉",
+      "紅薯澱粉"
+    ]
+  },
+  {
+    "tokenName": "cly004",
+    "category": "clayPot",
+    "dishName": {
+      "en": "Tomato & Sliced Pork Thick Soup",
+      "zh": "番茄滑肉煲"
+    },
+    "description": {
+      "zh": "番茄與滑肉同煲。",
+      "en": "Tomato and velveted pork simmered in a clay pot."
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "番茄",
+      "豬里脊",
+      "紅薯澱粉",
+      "薑",
+      "蔥",
+      "蒜"
+    ]
+  },
+  {
+    "tokenName": "cly005",
+    "category": "clayPot",
+    "dishName": {
+      "zh": "羊腩煲",
+      "en": "Lamb Belly Clay Pot"
+    },
+    "description": {
+      "zh": "羊腩與蘿蔔同煲。",
+      "en": "Lamb belly and radish braised in a clay pot."
+    },
+    "meat": "lamb",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "羊腩",
+      "蘿蔔",
+      "豆瓣醬",
+      "蒜",
+      "蔥",
+      "醬油",
+      "紅油"
+    ]
+  },
+  {
+    "tokenName": "cly006",
+    "category": "clayPot",
+    "dishName": {
+      "en": "Charred Pepper Beef & Tofu Pudding Pot",
+      "zh": "烧椒滑牛豆花煲"
+    },
+    "description": {
+      "zh": "滑牛肉片與豆花同煲，配烧椒湯底。",
+      "en": "Sliced beef and tofu pudding simmered with charred green pepper in a clay pot."
+    },
+    "meat": "beef",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "牛肉片",
+      "豆花",
+      "青辣椒",
+      "蒜",
+      "薑",
+      "醬油",
+      "蠔油",
+      "香醋",
+      "紅薯澱粉"
+    ]
+  },
+  {
+    "tokenName": "cly007",
+    "category": "clayPot",
+    "dishName": {
+      "zh": "葷豆花",
+      "en": "Savory Tofu Pudding Clay Pot"
+    },
+    "description": {
+      "zh": "豆花與滑肉、酸菜同煲。",
+      "en": "Tofu pudding simmered with sliced pork, pickled mustard greens, and luncheon meat."
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣"
+    ],
+    "ingredients": [
+      "豬里脊",
+      "豆花",
+      "紅油",
+      "蒜",
+      "薑",
+      "醬油",
+      "蠔油",
+      "香醋",
+      "紅薯澱粉",
+      "四川酸菜",
+      "午餐肉"
+    ]
+  },
+  {
+    "tokenName": "cly008",
+    "category": "clayPot",
+    "dishName": {
+      "en": "Sichuan Pickled Mustard Sea Bass",
+      "zh": "酸菜鱸魚"
+    },
+    "description": {
+      "zh": "鱸魚與四川酸菜湯底同煲。",
+      "en": "Sea bass simmered with Sichuan pickled mustard greens in a clay pot."
+    },
+    "meat": "seafood",
+    "isVegan": false,
+    "isSpicy": true,
+    "tags": [
+      "辣",
+      "海"
+    ],
+    "ingredients": [
+      "四川酸菜",
+      "乾辣椒",
+      "花椒",
+      "鱸魚",
+      "蒜",
+      "薑",
+      "蔥",
+      "豆腐",
+      "豆芽",
+      "萵苣",
+      "玉米澱粉"
+    ]
+  },
+  {
     "tokenName": "stm001",
     "category": "steamed",
     "dishName": {
@@ -467,19 +947,44 @@
       "zh": "粉蒸肉"
     },
     "description": {
-      "en": "Pork ribs or beef coated in spiced rice flour and steamed until tender.",
-      "zh": "排骨或牛肉裹五香米粉蒸熟，粉糯入味。"
+      "zh": "肉裹五香米粉蒸熟，粉糯入味。",
+      "en": "Meat coated in spiced rice flour and steamed until tender."
     },
-    "meat": "pork",
+    "meat": "other",
     "isVegan": false,
     "isSpicy": false,
     "tags": [],
     "ingredients": [
-      "排骨",
       "蒸肉米粉",
       "五香粉",
       "豆瓣醬",
       "紅薯"
+    ],
+    "variants": [
+      {
+        "label": "排骨",
+        "labelEn": "Pork Ribs",
+        "meat": "pork",
+        "ingredients": [
+          "排骨",
+          "蒸肉米粉",
+          "五香粉",
+          "豆瓣醬",
+          "紅薯"
+        ]
+      },
+      {
+        "label": "牛肉",
+        "labelEn": "Beef",
+        "meat": "beef",
+        "ingredients": [
+          "牛肉",
+          "蒸肉米粉",
+          "五香粉",
+          "豆瓣醬",
+          "紅薯"
+        ]
+      }
     ]
   },
   {
@@ -639,6 +1144,51 @@
     "ingredients": [
       "茄子",
       "紅油"
+    ]
+  },
+  {
+    "tokenName": "stm009",
+    "category": "steamed",
+    "dishName": {
+      "en": "Garlic Steamed Spare Ribs",
+      "zh": "蒜蓉蒸排骨"
+    },
+    "description": {
+      "en": "Spare ribs packed with fried garlic and steamed until tender.",
+      "zh": "排骨鋪蒜蓉清蒸，蒜香撲鼻。"
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "排骨",
+      "蠔油",
+      "芝麻油"
+    ]
+  },
+  {
+    "tokenName": "stm010",
+    "category": "steamed",
+    "dishName": {
+      "en": "Luffa with Glass Noodles",
+      "zh": "絲瓜粉絲"
+    },
+    "description": {
+      "en": "Luffa steamed over glass noodles with garlic and dried shrimp.",
+      "zh": "絲瓜鋪於粉絲上，蒜頭蝦米同蒸。"
+    },
+    "meat": "seafood",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [
+      "海"
+    ],
+    "ingredients": [
+      "絲瓜",
+      "粉絲",
+      "蝦米",
+      "食用油"
     ]
   },
   {
@@ -842,144 +1392,6 @@
     ]
   },
   {
-    "tokenName": "app007",
-    "category": "coldStarters",
-    "dishName": {
-      "en": "Cold-Tossed Daikon & Cabbage",
-      "zh": "涼拌蘿蔔絲／包菜"
-    },
-    "description": {
-      "en": "Shredded daikon and cabbage in rice vinegar and chili oil.",
-      "zh": "蘿蔔絲與包菜，米醋辣油輕拌。"
-    },
-    "meat": "other",
-    "isVegan": true,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "素"
-    ],
-    "ingredients": [
-      "白蘿蔔",
-      "包菜",
-      "紅油"
-    ]
-  },
-  {
-    "tokenName": "wok015",
-    "category": "wok",
-    "dishName": {
-      "en": "Sichuan Boiled Sliced Pork",
-      "zh": "水煮肉片"
-    },
-    "description": {
-      "en": "Pork slices poached in chili-bean broth, finished with hot oil.",
-      "zh": "肉片豆瓣熬汁，潑熱油激香，麻辣燙口。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "豬里脊",
-      "郫縣豆瓣醬",
-      "豆芽",
-      "芹菜",
-      "乾辣椒",
-      "花椒",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "stm009",
-    "category": "steamed",
-    "dishName": {
-      "en": "Garlic Steamed Spare Ribs",
-      "zh": "蒜蓉蒸排骨"
-    },
-    "description": {
-      "en": "Spare ribs packed with fried garlic and steamed until tender.",
-      "zh": "排骨鋪蒜蓉清蒸，蒜香撲鼻。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "排骨",
-      "蠔油",
-      "芝麻油"
-    ]
-  },
-  {
-    "tokenName": "stm010",
-    "category": "steamed",
-    "dishName": {
-      "en": "Luffa with Glass Noodles",
-      "zh": "絲瓜粉絲"
-    },
-    "description": {
-      "en": "Luffa steamed over glass noodles with garlic and dried shrimp.",
-      "zh": "絲瓜鋪於粉絲上，蒜頭蝦米同蒸。"
-    },
-    "meat": "seafood",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [
-      "海"
-    ],
-    "ingredients": [
-      "絲瓜",
-      "粉絲",
-      "蝦米",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "stm011",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Sizzling Clay-Pot Chicken or Fish",
-      "zh": "啫啫雞／魚煲"
-    },
-    "description": {
-      "en": "Marinated chicken or fish cooked tableside in a sizzling clay pot.",
-      "zh": "雞或魚醃製後入陶煲猛火啫啫，連煲上桌。"
-    },
-    "meat": "chicken",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "雞件或鮮魚",
-      "蠔油",
-      "料酒"
-    ]
-  },
-  {
-    "tokenName": "stm012",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Five-Finger Peach Root Chicken Clay Pot",
-      "zh": "五指毛桃雞煲"
-    },
-    "description": {
-      "en": "Free-range chicken braised with five-finger peach root, faintly sweet with coconut aroma.",
-      "zh": "走地雞與五指毛桃同煲，廣式滋補，淡椰香清甜。"
-    },
-    "meat": "chicken",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "走地雞",
-      "五指毛桃",
-      "紅棗"
-    ]
-  },
-  {
     "tokenName": "sup010",
     "category": "soup",
     "dishName": {
@@ -1092,6 +1504,71 @@
       "嫩豆腐",
       "白味噌",
       "柴魚高湯"
+    ]
+  },
+  {
+    "tokenName": "sup015",
+    "category": "soup",
+    "dishName": {
+      "en": "Guanzhong Lamb Soup",
+      "zh": "水盆羊肉"
+    },
+    "description": {
+      "en": "Lamb simmered in a clear, aromatic broth — a Shaanxi classic, best eaten with flatbread.",
+      "zh": "羊肉清燉，湯色澄淨，陝西水盆風味，配饦饦饃同食。"
+    },
+    "meat": "lamb",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "羊肉",
+      "孜然",
+      "小茴香"
+    ]
+  },
+  {
+    "tokenName": "sup016",
+    "category": "soup",
+    "dishName": {
+      "en": "Sichuan Pork Trotter Soup",
+      "zh": "老媽蹄花湯"
+    },
+    "description": {
+      "en": "Pork trotters braised until meltingly tender in a milky, collagen-rich broth.",
+      "zh": "豬蹄慢燉至軟爛，湯色奶白，膠質豐盈。"
+    },
+    "meat": "pork",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [],
+    "ingredients": [
+      "豬蹄",
+      "料酒"
+    ]
+  },
+  {
+    "tokenName": "sup017",
+    "category": "soup",
+    "dishName": {
+      "en": "Fish Maw Chicken Soup",
+      "zh": "花膠雞"
+    },
+    "description": {
+      "en": "Free-range chicken simmered with fish maw in a clear tonic broth.",
+      "zh": "走地雞與花膠同燉，湯色清澈，滋補養顏。"
+    },
+    "meat": "seafood",
+    "isVegan": false,
+    "isSpicy": false,
+    "tags": [
+      "海"
+    ],
+    "ingredients": [
+      "走地雞",
+      "花膠",
+      "紅棗",
+      "枸杞"
     ]
   },
   {
@@ -1216,245 +1693,6 @@
     ]
   },
   {
-    "tokenName": "sup015",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Tomato & Sliced Pork Thick Soup",
-      "zh": "番茄滑肉煲"
-    },
-    "description": {
-      "en": "Velveted pork in tomato broth thickened to a smooth finish.",
-      "zh": "肉片上漿，番茄湯打芡成羹，酸甜鮮嫩。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "豬里脊",
-      "番茄",
-      "雞蛋清",
-      "高湯"
-    ]
-  },
-  {
-    "tokenName": "sup016",
-    "category": "wok",
-    "dishName": {
-      "en": "Sichuan Savory Tofu Pudding",
-      "zh": "葷豆花"
-    },
-    "description": {
-      "en": "Tofu pudding topped with pork ragù, peanuts and pickled mustard.",
-      "zh": "嫩豆花澆肉臊，配花生、芽菜，川味鹹辣。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "豆花",
-      "豬肉末",
-      "花生",
-      "宜賓芽菜",
-      "紅油",
-      "花椒油"
-    ]
-  },
-  {
-    "tokenName": "wok016",
-    "category": "snacks",
-    "dishName": {
-      "en": "Sichuan Crispy Fried Pork",
-      "zh": "小酥肉"
-    },
-    "description": {
-      "en": "Pork strips seasoned with Sichuan pepper, coated in sweet-potato starch and fried golden.",
-      "zh": "豬肉條花椒醃製，紅薯粉漿炸至金黃酥脆。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "豬五花肉",
-      "花椒粉",
-      "雞蛋",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "wok017",
-    "category": "wok",
-    "dishName": {
-      "en": "Dry-Braised Sea Bass",
-      "zh": "乾燒鱸魚"
-    },
-    "description": {
-      "en": "Whole sea bass braised in chili-bean sauce until the glaze clings.",
-      "zh": "整條鱸魚豆瓣醬乾燒收汁。"
-    },
-    "meat": "seafood",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "海"
-    ],
-    "ingredients": [
-      "整條鱸魚",
-      "郫縣豆瓣醬",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "wok018",
-    "category": "wok",
-    "dishName": {
-      "en": "Salt-and-Pepper Tiger Shrimp",
-      "zh": "椒鹽大蝦"
-    },
-    "description": {
-      "en": "Shell-on prawns fried and tossed with Sichuan pepper-salt, garlic and chili.",
-      "zh": "帶殼大蝦旺火炸香，椒鹽、蒜蓉、辣椒拌勻。"
-    },
-    "meat": "seafood",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "海"
-    ],
-    "ingredients": [
-      "大虎蝦",
-      "椒鹽",
-      "辣椒",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "wok019",
-    "category": "wok",
-    "dishName": {
-      "en": "Dry-Fried Porcini Mushrooms",
-      "zh": "乾爆牛肝菌"
-    },
-    "description": {
-      "en": "Yunnan porcini dry-fried with garlic and dried chili until edges char.",
-      "zh": "雲南牛肝菌猛火乾爆，蒜片辣椒提香，邊緣微焦。"
-    },
-    "meat": "other",
-    "isVegan": true,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "素"
-    ],
-    "ingredients": [
-      "牛肝菌",
-      "乾辣椒",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "wok020",
-    "category": "wok",
-    "dishName": {
-      "en": "Dry-Pot Cauliflower",
-      "zh": "乾鍋花菜"
-    },
-    "description": {
-      "en": "Cauliflower dry-fried with cured pork belly, garlic and dried chili.",
-      "zh": "花菜與臘肉、乾辣椒乾鍋慢煸，香辣入味。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "花椰菜",
-      "臘肉",
-      "乾辣椒",
-      "郫縣豆瓣醬"
-    ]
-  },
-  {
-    "tokenName": "wok021",
-    "category": "snacks",
-    "dishName": {
-      "en": "Sweet & Sour Crispy Potato",
-      "zh": "糖醋土豆花"
-    },
-    "description": {
-      "en": "Potato florets fried crisp and glazed with sweet-and-sour sauce.",
-      "zh": "土豆切花炸酥，糖醋芡汁裹勻。"
-    },
-    "meat": "other",
-    "isVegan": true,
-    "isSpicy": false,
-    "tags": [
-      "素"
-    ],
-    "ingredients": [
-      "土豆",
-      "番茄醬",
-      "食用油"
-    ]
-  },
-  {
-    "tokenName": "wok022",
-    "category": "wok",
-    "dishName": {
-      "en": "Cumin Lamb",
-      "zh": "孜然羊肉"
-    },
-    "description": {
-      "en": "Lamb shoulder wok-seared with cumin, dried chili and scallion.",
-      "zh": "羊肩肉旺火爆炒，孜然、辣椒、蔥段提香。"
-    },
-    "meat": "lamb",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "羊肩肉",
-      "孜然",
-      "乾辣椒"
-    ]
-  },
-  {
-    "tokenName": "sup017",
-    "category": "wok",
-    "dishName": {
-      "en": "Sichuan Pickled Mustard Sea Bass",
-      "zh": "酸菜鱸魚"
-    },
-    "description": {
-      "en": "Sea bass in a tangy, spicy broth with Sichuan pickled mustard greens.",
-      "zh": "鱸魚片上漿，老酸菜酸辛湯底同煮，開胃爽口。"
-    },
-    "meat": "seafood",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "海"
-    ],
-    "ingredients": [
-      "鱸魚片",
-      "四川酸菜",
-      "雞蛋清",
-      "乾辣椒",
-      "花椒"
-    ]
-  },
-  {
     "tokenName": "nrc006",
     "category": "riceNoodles",
     "dishName": {
@@ -1475,54 +1713,6 @@
       "牛筋",
       "八角",
       "料酒"
-    ]
-  },
-  {
-    "tokenName": "stm013",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Minced Pork & Eggplant Clay Pot",
-      "zh": "肉末茄子煲"
-    },
-    "description": {
-      "en": "Eggplant braised with minced pork, garlic and chili-bean sauce.",
-      "zh": "茄子與肉末、豆瓣醬同煲，蒜香微辣。"
-    },
-    "meat": "pork",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "茄子",
-      "豬肉末",
-      "郫縣豆瓣醬"
-    ]
-  },
-  {
-    "tokenName": "app008",
-    "category": "coldStarters",
-    "dishName": {
-      "en": "Guizhou Cold-Tossed Salad",
-      "zh": "貴州拌菜"
-    },
-    "description": {
-      "en": "Crisp vegetables tossed with fermented chili, peanuts and zhe'ergen.",
-      "zh": "時蔬涼拌，配糟辣椒、花生、折耳根，貴州風味。"
-    },
-    "meat": "other",
-    "isVegan": true,
-    "isSpicy": true,
-    "tags": [
-      "辣",
-      "素"
-    ],
-    "ingredients": [
-      "時令蔬菜",
-      "糟辣椒",
-      "花生",
-      "折耳根"
     ]
   },
   {
@@ -1625,128 +1815,63 @@
     ]
   },
   {
-    "tokenName": "wok023",
-    "category": "clayPot",
-    "dishName": {
-      "en": "Charred Pepper Beef & Tofu Pudding Pot",
-      "zh": "烧椒滑牛豆花煲"
-    },
-    "description": {
-      "en": "Sliced beef and tofu pudding in a smoky charred-chili broth, served bubbling.",
-      "zh": "滑牛肉片與嫩豆花，烧椒煙香湯底同煲。"
-    },
-    "meat": "beef",
-    "isVegan": false,
-    "isSpicy": true,
-    "tags": [
-      "辣"
-    ],
-    "ingredients": [
-      "牛肉片",
-      "豆花",
-      "烧椒（烤青辣椒）",
-      "高湯"
-    ]
-  },
-  {
     "tokenName": "snk001",
     "category": "snacks",
     "dishName": {
-      "en": "Braised Assorted Platter",
+      "en": "Braised Platter",
       "zh": "滷味拼盤"
     },
     "description": {
-      "en": "A cold platter of braised pork, chicken and tofu seasoned with soy, star anise and five-spice.",
-      "zh": "精選滷豬、雞、豆乾冷切，醬香五香入味。"
+      "en": "Braised assorted meats, tofu, and vegetables served cold.",
+      "zh": "牛雜、牛腱、排骨、雞翅、豆干與蔬菜滷製後冷切。"
     },
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
     "tags": [],
     "ingredients": [
-      "豬肉",
-      "雞件",
-      "豆乾",
-      "八角",
-      "五香粉",
-      "桂皮"
+      "牛雜",
+      "牛腱",
+      "排骨",
+      "雞翅",
+      "豆干",
+      "蘿蔔",
+      "筍",
+      "滷料包"
     ]
   },
   {
-    "tokenName": "sup018",
-    "category": "soup",
+    "tokenName": "snk002",
+    "category": "snacks",
     "dishName": {
-      "en": "Guanzhong Lamb Soup",
-      "zh": "水盆羊肉"
+      "en": "Sichuan Crispy Fried Pork",
+      "zh": "小酥肉"
     },
     "description": {
-      "en": "Lamb simmered in a clear, aromatic broth — a Shaanxi classic, best eaten with flatbread.",
-      "zh": "羊肉清燉，湯色澄淨，陝西水盆風味，配饦饦饃同食。"
-    },
-    "meat": "lamb",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [],
-    "ingredients": [
-      "羊肉",
-      "孜然",
-      "小茴香"
-    ]
-  },
-  {
-    "tokenName": "sup019",
-    "category": "soup",
-    "dishName": {
-      "en": "Sichuan Pork Trotter Soup",
-      "zh": "老媽蹄花湯"
-    },
-    "description": {
-      "en": "Pork trotters braised until meltingly tender in a milky, collagen-rich broth.",
-      "zh": "豬蹄慢燉至軟爛，湯色奶白，膠質豐盈。"
+      "en": "Pork loin coated in sweet potato starch batter and fried.",
+      "zh": "豬里脊裹紅薯粉漿炸製。"
     },
     "meat": "pork",
     "isVegan": false,
     "isSpicy": false,
     "tags": [],
     "ingredients": [
-      "豬蹄",
-      "料酒"
-    ]
-  },
-  {
-    "tokenName": "sup020",
-    "category": "soup",
-    "dishName": {
-      "en": "Fish Maw Chicken Soup",
-      "zh": "花膠雞"
-    },
-    "description": {
-      "en": "Free-range chicken simmered with fish maw in a clear tonic broth.",
-      "zh": "走地雞與花膠同燉，湯色清澈，滋補養顏。"
-    },
-    "meat": "seafood",
-    "isVegan": false,
-    "isSpicy": false,
-    "tags": [
-      "海"
-    ],
-    "ingredients": [
-      "走地雞",
-      "花膠",
-      "紅棗",
-      "枸杞"
+      "紅薯澱粉",
+      "花椒",
+      "花生油",
+      "豬里脊"
     ]
   },
   {
     "tokenName": "snk003",
     "category": "snacks",
     "dishName": {
-      "en": "Sichuan Spicy Jelly Noodles",
+      "en": "Sichuan Liangfen",
       "zh": "傷心涼粉"
     },
     "description": {
-      "en": "Chilled mung bean jelly noodles tossed with chili oil, black vinegar and roasted peanuts.",
-      "zh": "冰涼涼粉拌紅油、香醋與花生，酸辣開胃。"
+      "en": "Mung bean jelly tossed with chili, garlic, vinegar, and soy sauce.",
+      "zh": "綠豆涼粉拌小米辣與蒜醬汁。"
     },
     "meat": "other",
     "isVegan": true,
@@ -1756,33 +1881,40 @@
       "素"
     ],
     "ingredients": [
-      "綠豆涼粉",
-      "紅油",
-      "花生"
+      "綠豆澱粉",
+      "小米辣",
+      "蒜",
+      "花生",
+      "醋",
+      "醬油"
     ]
   },
   {
-    "tokenName": "wok024",
-    "category": "wok",
+    "tokenName": "snk004",
+    "category": "snacks",
     "dishName": {
-      "en": "Hand-Torn Cabbage",
-      "zh": "手撕包菜"
+      "en": "Sweet & Sour Potato with Glass Noodles",
+      "zh": "糖醋土豆花"
     },
     "description": {
-      "en": "Cabbage hand-torn and wok-fried with dried chili, garlic and a splash of black vinegar.",
-      "zh": "包菜手撕，乾辣椒、蒜片旺火爆炒，香醋提味。"
+      "en": "Potato, sweet potato noodles, and wood ear mushroom stir-fried with sweet vinegar sauce.",
+      "zh": "土豆、寬粉與木耳拌炒糖醋醬汁。"
     },
     "meat": "other",
     "isVegan": true,
-    "isSpicy": true,
+    "isSpicy": false,
     "tags": [
-      "辣",
       "素"
     ],
     "ingredients": [
-      "包菜",
-      "乾辣椒",
-      "食用油"
+      "土豆",
+      "紅薯寬粉",
+      "木耳",
+      "花椒",
+      "孜然",
+      "醬油",
+      "香醋",
+      "糖"
     ]
   }
 ]

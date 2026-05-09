@@ -164,9 +164,9 @@ function MenuPage() {
 
   const submit = (form) => {
     const code = 'BB-' + Math.random().toString(36).slice(2, 6).toUpperCase() + '-' + Date.now().toString().slice(-4);
-    const dishes = selectedDishes.map(d => d.dishName?.zh || d.tokenName).join('、');
+    const dishes = selectedDishes.map(d => `· ${d.dishName?.zh || d.tokenName}`).join('\n');
     const allIngredients = selectedDishes.flatMap(d => d.ingredients || []);
-    const shopping_list = [...new Set(allIngredients)].join('、');
+    const shopping_list = [...new Set(allIngredients)].map(i => `· ${i}`).join('\n');
 
     emailjs.send(
       'service_crbnuwj',
@@ -259,9 +259,8 @@ function MenuPage() {
               </div>
               <div className="panel-body">
                 <div className="empty-state" style={{ padding: '60px 20px' }}>
-                  <div className="glyph">◇</div>
-                  <p>{t('receivedBody')}</p>
-                  <p style={{ marginTop: 14, fontFamily: 'Inter,sans-serif', fontSize: 11, letterSpacing: '0.3em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>{t('reference')} · {submitted}</p>
+                <img src="logo.svg" alt="" className="d-logo" style={{ width: 32, height: 32, marginBottom: 16 }} />
+                <p style={{ marginTop: 14, fontFamily: 'Inter,sans-serif', fontSize: 11, letterSpacing: '0.3em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>{t('reference')} · {submitted}</p>
                 </div>
               </div>
             </>

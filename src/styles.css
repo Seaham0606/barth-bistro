@@ -227,7 +227,8 @@ body.leaving .page-curtain { opacity: 1; pointer-events: auto; transition: opaci
 .museum-top .center a .word-l { justify-self: end; }
 .museum-top .center a .word-r { justify-self: start; }
 .museum-top .center .d-logo { width: 14px; height: 14px; display: block; }
-html[data-theme="dark"] .museum-top .center .d-logo {
+html[data-theme="dark"] .museum-top .center .d-logo,
+html[data-theme="dark"] .d-logo {
   filter: invert(1) hue-rotate(180deg) brightness(1.05);
 }
 .museum-top .center .d {
@@ -765,11 +766,11 @@ body.home::before {
 }
 
 .panel-foot {
-  padding: 18px 32px 24px; border-top: 1px solid var(--rule-soft);
+  padding: 18px 32px 24px;
   background: var(--paper-2);
 }
 .panel-foot-inner {
-  margin-top: 24px; padding: 22px 0 8px; border-top: 1px solid var(--rule-soft);
+  margin-top: 24px; padding: 22px 0 8px;
   text-align: center;
 }
 .panel-foot-inner .bbbtn { width: 100%; justify-content: center; }

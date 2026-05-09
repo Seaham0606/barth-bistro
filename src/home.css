@@ -157,7 +157,10 @@ html[data-theme="dark"] .placard .wordmark-xl .d-logo {
   background: var(--rule-soft);
 }
 
-/* Enter link */
+/* Enter CTA */
+.placard .bbbtn { margin-top: 40px; }
+
+/* Enter link (legacy) */
 .placard .enter {
   margin-top: 40px;
   display: inline-flex; align-items: center; gap: 18px;
